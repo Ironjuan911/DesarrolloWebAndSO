@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TestJavaScript</title>
+</head>
+<body>
+    <!-- Creamos botones para añadir y eliminar un mensaje en el párrafo del DOM: -->
+    <button id="btn1">Añadir mensaje</button>
+    <button id="btn2">Eliminar mensaje</button>
+    <!-- Este sera el parrafo en cuestion, el cual editaremos su mensaje por medio de JavaScript: -->
+    <p id="demo"></p> <!--  Posee el id "demo" para poder referenciarlo en el script. -->
+</body>
+<script>
+    // En constantes añadimos los botones y el parrafo del HTML en base a su id
+// para asi poder interactuar con estos en el script.
+
+const btn1 = document.getElementById("btn1");
+const btn2 = document.getElementById("btn2");
+
+const demo = document.getElementById("demo");
+
+// Añadimos eventos a los botones para que al hacer click en estos se ejecute
+
+btn1.addEventListener("click", function() {
+    demo.textContent = "Mensaje enviado";
+});
+
+btn2.addEventListener("click", function() {
+    demo.textContent = "";
+});
+</script>
+</html>
