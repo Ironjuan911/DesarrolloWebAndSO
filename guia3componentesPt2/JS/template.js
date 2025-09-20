@@ -26,6 +26,8 @@ productos.forEach(producto => {
 
     clon.querySelector(".img").setAttribute("src", producto.image);
 
+    //clon.setAttribute("class","product-card");
+
     //Ahora, añadimos este clon en un contenedor, en este caso es un div
     contenedor.appendChild(clon);
 });

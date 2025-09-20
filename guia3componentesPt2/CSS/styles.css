@@ -1,0 +1,86 @@
+/* Estilo inspirado en Notion - Modo oscuro */
+body {
+    background-color: #191919; /* Fondo oscuro */
+    color: #e4e4e4; /* Texto claro */
+    font-family: 'Inter', Arial, sans-serif; /* Tipografía limpia */
+    line-height: 1.6; /* Espaciado entre líneas */
+    margin: 0;
+    padding: 0;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    color: #ffffff; /* Encabezados más claros */
+    margin: 1.5em 0 0.5em;
+    font-weight: 600;
+  }
+  
+  h1 {
+    font-size: 2em;
+  }
+  
+  h2 {
+    font-size: 1.75em;
+  }
+  
+  h3 {
+    font-size: 1.5em;
+  }
+  
+  p {
+    margin: 1em 0;
+    color: #d1d1d1; /* Texto ligeramente más tenue */
+  }
+  
+  a {
+    color: #58a6ff; /* Azul para enlaces */
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  ul, ol {
+    margin: 1em 0;
+    padding-left: 1.5em;
+  }
+  
+  li {
+    margin: 0.5em 0;
+  }
+  
+  code {
+    background-color: #2e2e2e; /* Fondo para bloques de código */
+    color: #e4e4e4;
+    padding: 0.2em 0.4em;
+    border-radius: 4px;
+    font-family: 'Courier New', Courier, monospace;
+  }
+  
+  pre {
+    background-color: #2e2e2e;
+    color: #e4e4e4;
+    padding: 1em;
+    border-radius: 6px;
+    overflow-x: auto;
+  }
+  
+  blockquote {
+    border-left: 4px solid #58a6ff;
+    padding-left: 1em;
+    color: #d1d1d1;
+    margin: 1em 0;
+    font-style: italic;
+  }
+  
+  hr {
+    border: none;
+    border-top: 1px solid #2e2e2e;
+    margin: 2em 0;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 1em;
+  }
