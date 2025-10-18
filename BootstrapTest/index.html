@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guía de Investigación: Framework Bootstrap CSS</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <style>
+        /* Estilos adicionales para visualización */
+        .respuesta {
+            margin-bottom: 30px;
+            padding: 15px;
+            border-left: 5px solid #007bff; /* Color primario de Bootstrap */
+            background-color: #f8f9fa; /* Color gris claro */
+        }
+        .respuesta h3 {
+            color: #007bff;
+        }
+    </style>
+</head>
+<body>
+
+        <div class="respuesta bg-white">
+
+            <h1 class="text-center text-danger mb-4">Página de Prueba con Bootstrap</h1>
+
+            <p class="lead text-center mb-4">
+                Esta es una introducción breve para mostrar cómo Bootstrap estructura el contenido de manera sencilla y adaptable.
+            </p>
+
+            <div class="d-grid col-6 mx-auto mb-5">
+                <button type="button" class="btn btn-primary btn-lg">¡Haz Clic Aquí!</button>
+            </div>
+
+            <div class="container border p-3">
+                <div class="row">
+                    <div class="col-sm-6 mb-3">
+                        <div class="card bg-light p-3 h-100">
+                            <h3>Columna de Información 1</h3>
+                            <p>Esta columna ocupa la mitad del ancho total del contenedor en dispositivos pequeños (sm) y más grandes. Si se ve en móvil (extra-pequeño), por defecto ocuparía las 12 columnas (ancho completo), pero <code class="text-danger">.col-sm-6</code> asegura el 50% a partir de ese tamaño.</p>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 mb-3">
+                        <div class="card bg-light p-3 h-100">
+                            <h3>Columna de Información 2</h3>
+                            <p>Aquí se puede colocar contenido adicional, como una imagen o un formulario. El uso de <code class="text-danger">.row</code> y <code class="text-danger">.col-</code> garantiza que ambas columnas se ajusten perfectamente a la cuadrícula de 12 columnas.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <hr class="my-5">
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>
